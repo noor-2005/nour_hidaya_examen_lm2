@@ -1,0 +1,70 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #cce5ff;
+}
+header {
+    background-color: #6889cc;
+    color: white;
+    padding: 1rem 0;
+    border: 5px dotted blue;
+}
+header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    background-color: #9999ff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+nav ul li a:hover {
+    background-color: #bc97c9;
+}
+.content-box {
+    background-color: rgb(216, 177, 221), 51, 204);
+    padding: 20px;
+    border: 5px dotted rgb(150, 96, 150);
+    margin: 20px auto;
+    width: 80%;
+    color: white;
+}
+.form-box {
+    background-color: #e6cece;
+    padding: 20px;
+    color: black;
+    border-radius: 5px;
+    text-align: left;
+    width: 60%;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+input, select, button {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background-color: #3366cc;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background-color: #677392;
+}
